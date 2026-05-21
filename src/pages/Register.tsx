@@ -37,7 +37,7 @@ export default function Register() {
           <div style={{ fontSize: "56px", marginBottom: "16px" }}>🌳</div>
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "26px", color: "#0D5050", marginBottom: "8px" }}>You're In!</h2>
           <p style={{ fontSize: "14px", color: "#666", lineHeight: 1.6, marginBottom: "16px" }}>Thank you for registering with MGSN. Our Session Lead will add you to the <strong>Clean-Up Team-Up WhatsApp group</strong> shortly.</p>
-          <img src="/assets/mgsn-logo-main.png" alt="MGSN" style={{ maxWidth: "160px", margin: "12px auto", display: "block" }} />
+          <img src="/assets/mgsn-logo-light.png" alt="MGSN" style={{ maxWidth: "160px", margin: "12px auto", display: "block" }} />
           <p style={{ marginTop: "14px", fontSize: "13px", color: "#444" }}>Next session: <strong>Saturday 23 May 2026 · 08:00</strong><br />Block M · Mabopane</p>
           <p style={{ marginTop: "12px", fontSize: "13px", color: "#0D5050", fontWeight: 600 }}>Kea leboga 🙏🏾 — MGSN</p>
           <a href="#/" style={{ display: "block", marginTop: "20px", fontSize: "12px", color: "rgba(26,61,74,0.45)", textDecoration: "none" }}>← Back to MGSN Home</a>
@@ -52,7 +52,7 @@ export default function Register() {
         <div style={{ background: "#0D5050", borderRadius: "18px 18px 0 0", padding: "28px 28px 24px", textAlign: "center", position: "relative", overflow: "hidden" }}>
           <div style={{ position: "absolute", top: "-40px", right: "-40px", width: "180px", height: "180px", background: "rgba(255,255,255,0.04)", borderRadius: "50%" }} />
           <div style={{ width: "100px", margin: "0 auto 16px", background: "#fff", borderRadius: "10px", padding: "8px", boxShadow: "0 4px 16px rgba(0,0,0,0.2)", position: "relative", zIndex: 1 }}>
-            <img src="/assets/mgsn-logo-main.png" alt="MGSN" style={{ width: "100%", display: "block", borderRadius: "6px" }} />
+            <img src="/assets/mgsn-logo-light.png" alt="MGSN" style={{ width: "100%", display: "block", borderRadius: "6px" }} />
           </div>
           <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "28px", fontWeight: 900, color: "#fff", lineHeight: 1, marginBottom: "6px", position: "relative", zIndex: 1 }}>
             Join the <span style={{ color: "#EDB810" }}>Green Team</span>

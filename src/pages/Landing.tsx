@@ -10,7 +10,7 @@ export default function Landing() {
       <div style={{ background: "rgba(0,0,0,0.2)", borderBottom: "1px solid rgba(255,255,255,0.1)", padding: "12px 20px" }}>
         <div style={{ maxWidth: "960px", margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <img src="/assets/mgsn-logo-main.png" alt="MGSN" style={{ height: "36px", borderRadius: "8px", padding: "4px", background: "#fff" }} />
+            <img src="/assets/mgsn-logo-light.png" alt="MGSN" style={{ height: "36px", borderRadius: "8px", padding: "4px", background: "#fff" }} />
             <div>
               <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "10px", fontWeight: 800, color: "#EDB810", letterSpacing: "2px", textTransform: "uppercase" }}>Mabopane Green Space Network</div>
               <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.35)" }}>NPC Reg. 2025/422818/08</div>

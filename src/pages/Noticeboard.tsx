@@ -49,7 +49,7 @@ export default function Noticeboard() {
         <div style={{ height: "4px", background: "linear-gradient(90deg, #F07A1A 0%, #F07A1A 33%, #EDB810 33%, #EDB810 66%, #2D8B3A 66%, #2D8B3A 100%)" }} />
         <div style={{ maxWidth: "960px", margin: "0 auto", padding: "0 20px", display: "flex", alignItems: "center", justifyContent: "space-between", height: "64px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-            <img src="/assets/mgsn-logo-main.png" alt="MGSN" style={{ height: "38px", width: "auto" }} />
+            <img src="/assets/mgsn-logo-light.png" alt="MGSN" style={{ height: "38px", width: "auto" }} />
             <div>
               <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "11px", fontWeight: 800, letterSpacing: "2px", textTransform: "uppercase", color: "#EDB810", lineHeight: 1.2 }}>MGSN</div>
               <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.35)", letterSpacing: "0.5px", marginTop: "2px", textTransform: "uppercase" }}>Mabopane Green Space Network</div>
@@ -157,7 +157,7 @@ export default function Noticeboard() {
 
       <footer style={{ background: T.headerBg, padding: "28px 20px", textAlign: "center" }}>
         <div style={{ maxWidth: "960px", margin: "0 auto" }}>
-          <img src="/assets/mgsn-logo-main.png" alt="MGSN" style={{ height: "40px", width: "auto", margin: "0 auto 14px", display: "block", objectFit: "contain" }} />
+          <img src="/assets/mgsn-logo-light.png" alt="MGSN" style={{ height: "40px", width: "auto", margin: "0 auto 14px", display: "block", objectFit: "contain" }} />
           <div style={{ display: "flex", justifyContent: "center", gap: "24px", margin: "12px 0 16px", flexWrap: "wrap" }}>
             {[["#/", "Home"], ["#/noticeboard", "Notice Board"], ["#/volunteer", "Our Story"], ["#/register", "Register"], ["mailto:tshegofatso@duck.com", "Contact"]].map(([href, label]) => (
               <a key={label} href={href} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "11px", fontWeight: 700, letterSpacing: "1.5px", textTransform: "uppercase", color: "rgba(255,255,255,0.5)", textDecoration: "none" }}>{label}</a>

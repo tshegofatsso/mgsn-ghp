@@ -25,7 +25,7 @@ export default function Home() {
         <div style={{ height: "4px", background: "linear-gradient(90deg, #F07A1A 0%, #F07A1A 33%, #EDB810 33%, #EDB810 66%, #2D8B3A 66%, #2D8B3A 100%)" }} />
         <div style={{ maxWidth: "960px", margin: "0 auto", padding: "0 20px", display: "flex", alignItems: "center", justifyContent: "space-between", height: "64px", gap: "16px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: "10px", flexShrink: 0 }}>
-            <img src="/assets/mgsn-logo-main.png" alt="MGSN - Mabopane Green Space Network" style={{ height: "38px", width: "auto" }} />
+            <img src="/assets/mgsn-logo-light.png" alt="MGSN - Mabopane Green Space Network" style={{ height: "38px", width: "auto" }} />
             <div>
               <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "11px", fontWeight: 800, letterSpacing: "2px", textTransform: "uppercase", color: "#EDB810", lineHeight: 1.2 }}>MGSN</div>
               <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.35)", letterSpacing: "0.5px", marginTop: "1px" }}>Mabopane Green Space Network</div>
@@ -53,7 +53,7 @@ export default function Home() {
 
       {/* HERO */}
       <section style={{ position: "relative", overflow: "hidden", minHeight: "420px", display: "flex", alignItems: "center" }}>
-        <img src="/assets/block-m-waterfall-hero.gif" alt="Block M Waterfall Park" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 }} />
+        <img src="/assets/block-m-waterfall-hero.jpg" alt="Block M Waterfall Park" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", zIndex: 0 }} />
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(7,44,44,0.85) 0%, rgba(7,44,44,0.5) 100%)", zIndex: 1 }} />
         <div style={{ maxWidth: "960px", width: "100%", margin: "0 auto", padding: "52px 20px 48px", position: "relative", zIndex: 2 }}>
           <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "10px" }}>
@@ -89,7 +89,7 @@ export default function Home() {
       <section style={{ background: "linear-gradient(135deg, #072C2C 0%, #0D5050 100%)", padding: "32px 20px", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "960px", margin: "0 auto", display: "flex", alignItems: "center", gap: "28px", flexWrap: "wrap" }}>
           <div style={{ flexShrink: 0, position: "relative" }}>
-            <img src="/images/workshop-poster-26may.jpg" alt="May Sessions Poster" style={{ width: "140px", height: "180px", objectFit: "cover", borderRadius: "12px", boxShadow: "0 8px 32px rgba(0,0,0,0.4)" }} />
+            <img src="/images/workshop-poster-prototype1.jpg" alt="May Sessions Poster" style={{ width: "140px", height: "180px", objectFit: "cover", borderRadius: "12px", boxShadow: "0 8px 32px rgba(0,0,0,0.4)" }} />
             <div style={{ position: "absolute", top: "-10px", left: "-10px", background: "#F07A1A", color: "#fff", fontFamily: "'Barlow Condensed', sans-serif", fontSize: "9px", fontWeight: 800, letterSpacing: "1.5px", textTransform: "uppercase", padding: "4px 10px", borderRadius: "100px" }}>Next Sessions</div>
           </div>
           <div style={{ flex: 1 }}>
@@ -242,7 +242,7 @@ export default function Home() {
 
       <footer style={{ background: T.headerBg, padding: "32px 20px", textAlign: "center", transition: "background 0.3s" }}>
         <div style={{ maxWidth: "960px", margin: "0 auto" }}>
-          <img src="/assets/mgsn-logo-main.png" alt="MGSN" style={{ height: "40px", width: "auto", margin: "0 auto 14px", display: "block", objectFit: "contain" }} />
+          <img src="/assets/mgsn-logo-light.png" alt="MGSN" style={{ height: "40px", width: "auto", margin: "0 auto 14px", display: "block", objectFit: "contain" }} />
           <div style={{ display: "flex", justifyContent: "center", gap: "24px", margin: "12px 0 16px", flexWrap: "wrap" }}>
             {[["#/", "Home"], ["#/noticeboard", "Notice Board"], ["#/volunteer", "Our Story"], ["#/register", "Register"], ["mailto:tshegofatso@duck.com", "Contact"]].map(([href, label]) => (
               <a key={label} href={href} style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "11px", fontWeight: 700, letterSpacing: "1.5px", textTransform: "uppercase", color: "rgba(255,255,255,0.5)", textDecoration: "none" }}>{label}</a>
